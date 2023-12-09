@@ -46,8 +46,8 @@ def create_service(api_name, api_version, client_secret, scopes):
 
 def main():
     
-    drive_service = create_service(API_NAME, API_VERSION, CLIENT_SECRET_FILE, SCOPES)
-    print(drive_service)
+    drive_service_instance = create_service(API_NAME, API_VERSION, CLIENT_SECRET_FILE, SCOPES)
+
 
 
 if __name__ == "__main__":
